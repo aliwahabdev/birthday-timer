@@ -1,6 +1,15 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('roboto.eot');
+  src: url('roboto.eot?#iefix') format('embedded-opentype'),
+  url('roboto.woff') format('woff'),
+  url('roboto.ttf')  format('truetype'),
+  url('roboto.svg#svgFontName') format('svg');
+}
+
 body {
   background-color: black;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: flex; /* This centers the content horizontally */
   justify-content: center; /* This centers the content horizontally */
   align-items: center; /* This centers the content vertically */
@@ -10,5 +19,5 @@ body {
 
 #countdown {
   color: white;
-  font-size: 80px; /* This makes the font bigger */
+  font-size: 100px; /* This makes the font bigger */
 }
