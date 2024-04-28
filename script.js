@@ -10,7 +10,7 @@ function checkNum(timenum, lol)
 {
     result = lol
     if (timenum == 1) {
-       result = lol.replace(/!$/, "")
+       result = lol.substring(0, string.length-1)
     }
     return result
 }
