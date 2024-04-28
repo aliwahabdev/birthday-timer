@@ -26,7 +26,7 @@ function showRemaining() {
     Their birthday ends in:\n\
     "
     //document.getElementById('countdown').innerHTML += days + ':';
-    document.getElementById('countdown').innerHTML += hours + 'hours';
+    document.getElementById('countdown').innerHTML += hours + 'hours ';
     document.getElementById('countdown').innerHTML += minutes + 'minutes ';
     document.getElementById('countdown').innerHTML += seconds + 'seconds';
 }

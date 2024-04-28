@@ -10,15 +10,14 @@
 body {
   background-color: black;
   font-family: 'Roboto', sans-serif;
-  display: flex; /* This centers the content horizontally */
-  justify-content: center; /* This centers the content horizontally */
-  align-items: center; /* This centers the content vertically */
-  height: 100vh; /* This takes up the whole viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0;
 }
 
 #countdown {
   color: white;
-  font-size: 60px; /* This makes the font bigger */
+  font-size: 60px;
   text-align: center;
 }
