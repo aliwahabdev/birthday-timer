@@ -6,6 +6,15 @@ var _hour = _minute * 60;
 var _day = _hour * 24;
 var timer;
 
+function checkNum(timenum, lol)
+{
+    result = lol
+    if (timenum == 1) {
+       result = lol.replace("s", "")
+    }
+    return result
+}
+
 function showRemaining() {
     var now = new Date();
     var distance = end - now;
@@ -24,13 +33,13 @@ function showRemaining() {
 
     document.getElementById('countdown').innerHTML = '';
     if (hours > 0) {
-        document.getElementById('countdown').innerHTML += hours + 'hours ';
+        document.getElementById('countdown').innerHTML += hours + checkNum(hours, 'hours ');
     } 
     if (minutes > 0) {
-        document.getElementById('countdown').innerHTML += minutes +'minutes ';
+        document.getElementById('countdown').innerHTML += minutes +(minutes, 'minutes ');
     } 
     if (seconds > 0) {
-        document.getElementById('countdown').innerHTML += seconds +'seconds ';
+        document.getElementById('countdown').innerHTML += seconds + checkNum(seconds, 'seconds ');
     }
 }
 
