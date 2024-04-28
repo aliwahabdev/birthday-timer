@@ -8,11 +8,11 @@ var timer;
 
 function checkNum(timenum, lol)
 {
-    result = lol
+    let result = lol
     if (timenum == 1) {
-       result = lol.substring(0, string.length-1)
+       result = lol.slice(0, -1)
     }
-    return result
+    return result;
 }
 
 function showRemaining() {
