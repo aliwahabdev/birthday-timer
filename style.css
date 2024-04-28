@@ -19,7 +19,7 @@ body {
   font-family: 'Roboto', sans-serif;
   justify-content: center;
   margin: auto;
-  width: 75%;
+  width: 60%;
   height: 80%;
 }
 
@@ -37,7 +37,7 @@ main {
 }
 
 #cake {
-  width: 28vh;
+  width: 32vh;
   user-select: none;
   -moz-user-select: none;
   -webkit-user-drag: none;
