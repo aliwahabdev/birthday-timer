@@ -22,6 +22,7 @@ function showRemaining() {
     var minutes = Math.floor((distance % _hour) / _minute);
     var seconds = Math.floor((distance % _minute) / _second);
 
+    document.getElementById('countdown').innerHTML = '';
     if (hours > 0) {
         document.getElementById('countdown').innerHTML += hours + 'hours ';
     } 
