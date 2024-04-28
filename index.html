@@ -7,38 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script>
-    var end = new Date('04/28/2024 00:00 AM');
-
-    var _second = 1000;
-    var _minute = _second * 60;
-    var _hour = _minute * 60;
-    var _day = _hour * 24;
-    var timer;
-
-    function showRemaining() {
-        var now = new Date();
-        var distance = end - now;
-        if (distance < 0) {
-
-            clearInterval(timer);
-            document.getElementById('countdown').innerHTML = "It's now the 28th of April! Happy Birthday Ali & Mohammad! 🎉";
-
-            return;
-        }
-        var days = Math.floor(distance / _day);
-        var hours = Math.floor((distance % _day) / _hour);
-        var minutes = Math.floor((distance % _hour) / _minute);
-        var seconds = Math.floor((distance % _minute) / _second);
-
-        document.getElementById('countdown').innerHTML = days + ':';
-        document.getElementById('countdown').innerHTML += hours + ':';
-        document.getElementById('countdown').innerHTML += minutes + ':';
-        document.getElementById('countdown').innerHTML += seconds;
-    }
-
-    timer = setInterval(showRemaining, 1000);
-</script>
-<div id="countdown"></div>
+    <script type="text/javascript" src="script.js"></script>
+    <div id="countdown"></div>
 </body>
 </html>
