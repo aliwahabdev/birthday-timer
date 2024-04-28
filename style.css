@@ -10,10 +10,11 @@
 body {
   background-color: black;
   font-family: 'Roboto', sans-serif;
+  justify-content: center;
   margin: 0;
 }
 
-#countdown {
+#countdown, p{
   color: white;
   font-size: 60px;
   text-align: center;
