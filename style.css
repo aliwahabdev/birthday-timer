@@ -36,6 +36,10 @@ main {
   user-select: none;
 }
 
+#countdown {
+  font-size: 4vh;
+}
+
 #cake {
   width: 40vh;
   user-select: none;
