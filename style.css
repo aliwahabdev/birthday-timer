@@ -11,12 +11,13 @@ body {
   background-color: black;
   font-family: 'Roboto', sans-serif;
   justify-content: center;
-  height: 100vh;
-  margin: 0;
+  margin: auto;
+  width: 50%;
 }
 
 #countdown, p{
   color: white;
   font-size: 60px;
   text-align: center;
+  
 }
