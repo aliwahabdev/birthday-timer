@@ -22,11 +22,9 @@ function showRemaining() {
     var minutes = Math.floor((distance % _hour) / _minute);
     var seconds = Math.floor((distance % _minute) / _second);
 
-    document.getElementById('countdown').innerHTML = "Happy Birthday Ali & Mohammad!\n\
-    Their birthday ends in:\n\
-    "
+    document.getElementById('countdown').innerHTML = "Happy Birthday Ali & Mohammad!\nTheir birthday ends in:"
     //document.getElementById('countdown').innerHTML += days + ':';
-    document.getElementById('countdown').innerHTML += hours + 'hours ';
+    document.getElementById('countdown').innerHTML += "\n" + hours + 'hours ';
     document.getElementById('countdown').innerHTML += minutes + 'minutes ';
     document.getElementById('countdown').innerHTML += seconds + 'seconds';
 }

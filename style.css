@@ -10,9 +10,6 @@
 body {
   background-color: black;
   font-family: 'Roboto', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 0;
 }
 
@@ -20,4 +17,5 @@ body {
   color: white;
   font-size: 60px;
   text-align: center;
+  white-space: pre-wrap;
 }
