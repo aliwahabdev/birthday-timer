@@ -2,9 +2,9 @@
   font-family: 'Roboto';
   src: url('roboto.eot');
   src: url('roboto.eot?#iefix') format('embedded-opentype'),
-  url('roboto.woff') format('woff'),
-  url('roboto.ttf')  format('truetype'),
-  url('roboto.svg#svgFontName') format('svg');
+    url('roboto.woff') format('woff'),
+    url('roboto.ttf') format('truetype'),
+    url('roboto.svg#svgFontName') format('svg');
 }
 
 body {
@@ -15,7 +15,8 @@ body {
   width: 50%;
 }
 
-#countdown, main{
+#countdown,
+main {
   color: white;
   font-size: 60px;
   text-align: center;
@@ -29,4 +30,9 @@ body {
 
 #cake {
   width: 50%;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
