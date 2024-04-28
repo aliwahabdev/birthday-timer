@@ -11,12 +11,12 @@ body {
   background-color: black;
   font-family: 'Roboto', sans-serif;
   justify-content: center;
+  margin: auto;
+  width: 50%;
 }
 
 #countdown, main{
   color: white;
   font-size: 60px;
   text-align: center;
-  margin: auto;
-  width: 50%;
 }
