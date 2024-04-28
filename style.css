@@ -12,8 +12,7 @@ body {
   font-family: 'Roboto', sans-serif;
   justify-content: center;
   display: flex;
-  
-  height: 100vh; /* This takes up the whole viewport height */
+  height: 100vh;
   margin: 0;
 }
 
@@ -21,5 +20,4 @@ body {
   color: white;
   font-size: 60px;
   text-align: center;
-  white-space: pre-wrap;
 }
