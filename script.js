@@ -36,7 +36,7 @@ function showRemaining() {
         document.getElementById('countdown').innerHTML += hours + checkNum(hours, 'hours') + " ";
     } 
     if (minutes > 0) {
-        document.getElementById('countdown').innerHTML += minutes +(minutes, 'minutes') + " ";
+        document.getElementById('countdown').innerHTML += minutes + checkNum(minutes, 'minutes') + " ";
     } 
     if (seconds > 0) {
         document.getElementById('countdown').innerHTML += seconds + checkNum(seconds, 'seconds') + " ";
