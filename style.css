@@ -19,5 +19,6 @@ body {
 
 #countdown {
   color: white;
-  font-size: 84px; /* This makes the font bigger */
+  font-size: 60px; /* This makes the font bigger */
+  text-align: center;
 }
