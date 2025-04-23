@@ -1,4 +1,4 @@
-var end = new Date('04/29/2024 00:00 AM');
+var end = new Date('04/28/2025 00:00 AM');
 
 var _second = 1000;
 var _minute = _second * 60;
@@ -21,8 +21,7 @@ function showRemaining() {
     if (distance < 0) {
 
         clearInterval(timer);
-        document.getElementById('countdown').innerHTML = "The birthday is over.\n\
-        See you next year!";
+        document.getElementById('countdown').innerHTML = "Happy Birthday Ali & Mohammad!";
 
         return;
     }
