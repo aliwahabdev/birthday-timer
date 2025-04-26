@@ -32,7 +32,7 @@ function showRemaining() {
 
     document.getElementById('countdown').innerHTML = '';
     if (days > 0) {
-        document.getElementById('countdown').innerHTML += days + checkNum(days, 'days ');
+        document.getElementById('countdown').innerHTML += days + checkNum(days, 'day ');
     } 
     if (hours > 0) {
         document.getElementById('countdown').innerHTML += hours + checkNum(hours, 'hours ');
